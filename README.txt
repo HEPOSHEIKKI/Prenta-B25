@@ -1,0 +1,28 @@
+Prenta B1.25
+
+Otto Varteva 2022
+
+
+-------Tekniset tiedot--------
+
+Emolevy: megatronics 3.0
+Prosessori: Arduino Mega 2560 
+Firmware: Repetier
+EEPROM: Kyllä/stock FW on sijalla 1
+LCD: Greeentech 12864 mallinen
+
+
+-------Printteriprofiili-------
+
+Koko: 250mm/250mm/250mm
+Feedrate: 6000mm/min (arvio)
+Printterin tyyppi: FFF CoreXY+Z (huom! firmwaressa conffattu Cartesian tyylisenä)
+
+-------Hyödyllisiä G-Code/M-koodeja---------
+
+M360: Tulosta takaisin printterin configuraatio-arvot
+M205: Tulosta EEPROM asetukset
+
+-------Firmware--------
+
+Firmwaren saa generoitua configuration.h tiedoston avulla osoitteessa https://www.repetier.com/firmware/v092/
